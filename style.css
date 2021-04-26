@@ -1,0 +1,37 @@
+body{
+    background-color: coral;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+h1{
+    font-size: 1em;
+    text-align: center;
+    margin: 5px 0;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+a:link,
+a:visited{
+    color: rgb(200, 81, 81);
+    text-decoration: none;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid grey;
+    margin-bottom: 10px;
+    width: 250px;
+    text-align: center;
+}
+a:hover,
+a:active{
+    color: rgb(102, 24, 24);
+    transition: color 0.3s;
+}
+
